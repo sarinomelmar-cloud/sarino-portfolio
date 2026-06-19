@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melmar B. Sarino | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            scroll-behavior:smooth;
+            font-family:'Poppins',sans-serif;
+        }
+
+        body{
+            background:#0f172a;
+            color:#fff;
+            line-height:1.6;
+        }
+
+        nav{
+            position:fixed;
+            top:0;
+            width:100%;
+            background:#111827;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            padding:15px 8%;
+            z-index:1000;
+        }
+
+        nav h2{
+            color:#38bdf8;
+        }
+
+        nav ul{
+            display:flex;
+            list-style:none;
+        }
+
+        nav ul li{
+            margin-left:25px;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            transition:.3s;
+        }
+
+        nav a:hover{
+            color:#38bdf8;
+        }
+
+        section{
+            padding:100px 8%;
+        }
+
+        /* Hero */
+
+        #home{
+            min-height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            flex-wrap:wrap;
+        }
+
+        .hero-text{
+            flex:1;
+        }
+
+        .hero-text h1{
+            font-size:55px;
+        }
+
+        .hero-text span{
+            color:#38bdf8;
+        }
+
+        .hero-text p{
+            margin:20px 0;
+            color:#cbd5e1;
+        }
+
+        .btn{
+            display:inline-block;
+            background:#38bdf8;
+            color:black;
+            padding:12px 28px;
+            border-radius:30px;
+            text-decoration:none;
+            font-weight:bold;
+            transition:.3s;
+        }
+
+        .btn:hover{
+            transform:scale(1.05);
+        }
+
+        .hero-img{
+            flex:1;
+            display:flex;
+            justify-content:center;
+        }
+
+        .hero-img img{
+            width:320px;
+            border-radius:50%;
+            border:6px solid #38bdf8;
+        }
+
+        /* About */
+
+        .title{
+            text-align:center;
+            margin-bottom:50px;
+            font-size:40px;
+        }
+
+        #about p{
+            max-width:900px;
+            margin:auto;
+            text-align:center;
+            color:#d1d5db;
+        }
+
+        /* Skills */
+
+        .skills{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+            gap:20px;
+        }
+
+        .skill{
+            background:#1e293b;
+            padding:20px;
+            text-align:center;
+            border-radius:12px;
+            transition:.3s;
+        }
+
+        .skill:hover{
+            background:#38bdf8;
+            color:black;
+        }
+
+        /* Projects */
+
+        .projects{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+            gap:30px;
+        }
+
+        .card{
+            background:#1e293b;
+            border-radius:15px;
+            overflow:hidden;
+            transition:.3s;
+        }
+
+        .card img{
+            width:100%;
+            height:200px;
+            object-fit:cover;
+        }
+
+        .card-content{
+            padding:20px;
+        }
+
+        .card:hover{
+            transform:translateY(-10px);
+        }
+
+        /* Contact */
+        
+        .contact-item{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .info{
+            text-align: center;
+        }
+
+        form{
+            max-width:600px;
+            margin:auto;
+            display:flex;
+            flex-direction:column;
+        }
+
+        input, textarea{
+            margin-bottom:15px;
+            padding:15px;
+            border:none;
+            border-radius:10px;
+        }
+
+        button{
+            padding:15px;
+            background:#38bdf8;
+            border:none;
+            font-size:18px;
+            cursor:pointer;
+            border-radius:10px;
+        }
+
+        footer{
+            text-align:center;
+            padding:20px;
+            background:#111827;
+        }
+
+        @media(max-width:768px){
+
+            #home{
+                flex-direction:column-reverse;
+                text-align:center;
+            }
+
+            .hero-text h1{
+                font-size:40px;
+            }
+
+            .hero-img img{
+                width:230px;
+                margin-bottom:30px;
+            }
+
+        }
+
+    </style>
+</head>
+<body>
+
+<nav>
+<h2>Melmar S.</h2>
+
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+
+<li><a href="#achievements">Achievements</a></li>
+<li><a href="#capstone">Capstone</a></li>
+<li><a href="#certificates">Certificates</a></li>
+
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<!-- HOME -->
+
+<section id="home">
+
+<div class="hero-text">
+
+<h1>Hello, I'm <span>Melmar B. Sarino</span></h1>
+
+
+
+<a href="#skills" class="btn">View My Work</a>
+
+</div>
+
+<div class="hero-img">
+
+<img src="0126a476-747c-4690-92eb-509a1c47a460.jpg" alt="Profile">
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about">
+
+    </div>
+
+<div class="hero-img">
+
+<img src="CRA_8191[1].JPG" alt="Profile">
+
+</div>
+
+<h2 class="title">About Me</h2>
+
+<p>
+Hello! My name is Melmar B. Sarino, and I am an Information Systems student with a strong interest in technology, information management, and system development. I am passionate about learning new skills and applying my knowledge to create effective and innovative solutions. Through my academic journey and internship experiences, I have developed skills in problem-solving, teamwork, communication, and the use of various computer applications and technologies.
+
+<br>
+<br>
+I am eager to continue expanding my knowledge in the field of Information Systems and gain valuable professional experience. This portfolio showcases my educational background, projects, skills, and achievements as I work toward becoming a successful IT professional. Thank you for visiting my portfolio.</h1>
+<p>
+
+</section>
+
+
+
+
+</div>
+
+</section>
+
+<!-- PROJECTS -->
+
+<section id="skills">
+
+<h2 class="title">Skills</h2>
+
+<div class="skills">
+
+<div class="card">
+
+<img src="8a19c436-5151-4ee3-95e7-6d3f7ff4a60b.jpg">
+
+<div class="card-content">
+
+<h3>Technical Documentary</h3>
+
+<p>
+Created technical documentation covering the system's design, features, database structure, testing, and implementation process.
+</p>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="5555.jpg">
+
+<div class="card-content">
+
+<h3>Graphic Design</h3>
+
+<p>
+Created graphic designs for social media, branding, and promotional content that effectively communicate ideas and strengthen brand identity.
+</p>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="44444888.jpg">
+
+<div class="card-content">
+
+<h3>Photography</h3>
+
+<p>
+Produced professional photography for events, portraits, and promotional content, focusing on quality, storytelling, and impactful visuals.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- ACHIEVEMENTS -->
+
+<section id="achievements">
+<h2 class="title">Achievements</h2>
+<div class="achievements"></div>
+
+    <h1>2022</h1>
+
+    <p>
+        Participated in the <strong>Pag-Hiusa sa Lente Multimedia Festival</strong>
+        where I contributed to a student-produced film titled
+        <strong>"The Whys and Wherefores"</strong>. This experience provided
+        hands-on learning in multimedia production, creative writing,
+        editing, and teamwork.
+    </p>
+
+    
+    <div class="image-center">
+        <img src="312dcde6-d70e-4ec3-9cb7-bccd02e76955.jpg" class="img-fluid" style="max-width:400px;">
+    </div>
+    
+    
+<h1>2024</h1>
+            <p>
+                Participated in the <strong>Startup Sundayag Pitch Festival 2024</strong>,
+                where I showcased an innovative project pitch and received a
+                <strong>Certificate of Recognition</strong>. This experience enhanced my
+                public speaking, pitching, teamwork, and entrepreneurial mindset.
+            </p>
+
+    <div class="image-center">
+           <img src="11114.jpeg" class="img-fluid" style="max-width:400px;">
+    </div>
+    
+
+</section>
+
+
+<!-- CAPSTONE -->
+<section id="capstone">
+<h2 class="title">Capstone</h2>
+<div class="capstone"></div>
+
+        <h1>Capstone Project</h1>
+
+        <h3>MANAGEMENT INFORMATION SYSTEM</h3>
+
+        <h2>Office of the Senior Citizens Affairs (OSCA) System</h2>
+
+        <p>
+            As part of my capstone, my team and I developed a comprehensive
+            <strong>Management Information System</strong> specifically for the
+            <strong>Office of the Senior Citizen Affairs (OSCA)</strong> in Panabo City.
+        </p>
+
+        <p>
+            The system was built using JavaScript, Node.js, and PostgreSQL,
+            featuring financial monitoring, senior citizens database management,
+            report generation, and automated applicant actions. It replaces manual
+            paper tracking to make OSCA services significantly faster and more accurate.
+        </p>
+
+        <div class="tech-card">
+
+            <h4>System Architecture & Tech Stack</h4>
+            <br>
+            <br>
+
+            <ul>
+                <li>✔ Frontend: JavaScript for dynamic and interactive user interface development</li>
+
+                <li>✔ Backend: Node.js for server-side logic and RESTful API handling</li>
+
+                <li>✔ Database: PostgreSQL for structured data storage and efficient query management</li>
+            </ul>
+<br>
+ <div class="image-center">
+
+            <img src="706718269_987274713695334_994160213173995869_n.jpg" class="img-fluid" style="max-width:400px;">
+
+        </div>
+
+        
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CERTIFICATES -->
+<section id="certificates">
+<h2 class="title">Certificates</h2>
+<div class="certificates"></div>
+
+
+        <h4><span class="badge">INTERNSHIP</span></h4>
+        <div class="image">
+            <img src="Sarino.jpeg"class="img-fluid" style="max-width:400px;">
+
+        </div>
+
+        <div class="content">
+        
+            </div>
+
+            <h2>On-the-job-training on Propulse VA</h2>
+
+            <p>
+                Awarded for successfully completing a 486-hour OJT at Propulse VA, demonstrating technical skills, dedication, and professionalism.
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="certificate-card">
+        <br>
+<h4><span class="badge">TECHNICAL</span></h4>
+        <div class="image">
+            <img src="Python_Essentials_1_certificate_sarino-melmar-dnsc-edu-ph_bd0f1467-7a68-42e5-b641-68fd61b8334d_page-0001.jpg" img-fluid" style="max-width:400px;">
+            
+        </div>
+
+        <div class="content">
+
+            <div class="date">
+                ⓒ CISCO NETWORKING ACADEMY
+            </div>
+
+            <h2>Python Essentials 1</h2>
+
+            <p>
+                Successfully completed the Python Essentials 1 course
+                offered by Cisco Networking Academy, strengthening my
+                programming fundamentals.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+<h2 class="title">Contact Me</h2>
+
+<form>
+
+<input type="text" placeholder="Your Name">
+
+<input type="email" placeholder="Your Email">
+
+<textarea rows="6" placeholder="Your Message"></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+<br>
+<div class="info">
+                <h4>EMAIL</h4>
+                <p>sarino.melmar@dnc.edu.ph</p>
+            </div>
+        </div>
+
+
+ <div class="info">
+                <h4>FACEBOOK</h4>
+                <p>Melmar Sarino</p>
+            </div>
+        </div>
+
+
+</section>
+
+<footer>
+
+<p>© 2026 Melmar Sarino | All Rights Reserved</p>
+
+</footer>
+
+<script>
+
+const observer = new IntersectionObserver((entries)=>{
+
+entries.forEach(entry=>{
+
+if(entry.isIntersecting){
+
+entry.target.style.opacity=1;
+entry.target.style.transform="translateY(0)";
+
+}
+
+});
+
+});
+
+document.querySelectorAll("section").forEach(section=>{
+
+section.style.opacity=0;
+section.style.transform="translateY(50px)";
+section.style.transition="1s";
+
+observer.observe(section);
+
+});
+
+document.querySelector("form").addEventListener("submit",function(e){
+
+e.preventDefault();
+
+alert("Thank you! Your message has been received.");
+
+this.reset();
+
+});
+
+</script>
+
+</body>
+</html>
